@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_site"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="工地类型" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="30dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/tv_worksitetype"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="工地" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="30dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/tv_tasktype"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="作业类型" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="30dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/tv_inspectiontiem"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="督查时间" />
+
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="30dp"
+        android:background="#cccccc" />
+</LinearLayout>
